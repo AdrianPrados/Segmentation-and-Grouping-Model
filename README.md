@@ -49,7 +49,7 @@ mode = '2D' # 2D or 3D
 For the clustering process, the algorithm utilizes a similarity cost between the generated segments. A Gaussian Process is employed to establish the relationship between each segment. To evaluate the cost, a Gaussian Optimal Transport (GOT) process is used to assess the cost of transforming one segment into another. The lower the transformation cost, the more similar the segments are. Consequently, if the similarity exceeds a certain threshold, the segments are considered similar. A visual example is presented below, where the same color represents the same movement library.
 
 <p align="center">
-  <img src="Images/Words.jpg" height=200 />
+  <img src="Images/Words.jpg" height=300 />
 </p>
 
 To execute the cluster process, go to the folder [`GOT`](./GOT/), and run the script [`main.py`](./GOT/main.py). This script will generate the clusters and save them in the folder [`GaussianPkl`](./GOT/GaussianPkl/). It is import to note that you need to have the segments generated in the previous step.
@@ -59,7 +59,7 @@ To execute the cluster process, go to the folder [`GOT`](./GOT/), and run the sc
 To test the efficiency of the algorithm, experiments have been carried out with a manipulator in a real environment. For this purpose, a series of data have been taken by means of a kinesthetic demonstration and then tested re-organizing the movement primitvies generated with our method. 
 
 <p align="center">
-  <img src="Images/ExpRealAdam.jpg" height=200 />
+  <img src="Images/ExpRealAdam.jpg" height=300 />
 </p>
 
 The video with the solution is provided on [Youtube](https://youtu.be/A3m2sbUI5F0)
