@@ -157,15 +157,6 @@ def count_thresh(data, threshold, segment_size, grace_threshold,acceleration):
         data_prev = acceleration[i]
     print("Segmentos en thresh",segments)
     
-    """ if count >= segment_size:
-    print("Holaaaa")
-    segments.append(int(data[i]))
-    if segments[-1] + count != i:
-        print("Agregando segmento")
-        segments.append(i - count)
-    count = count + 1
-    grace_count = 0 """
-    
     return segments
 
 def normalize_time_series(time, data, target_length=100):

@@ -101,7 +101,6 @@ print("Matching values: ", listsimilars)
 output_folder = 'MovementLibrary'
 os.makedirs(output_folder, exist_ok=True)
 
-#listsimilars = [(2, 4), (2, 5), (4, 5), (0, 1), (1, 3)]  # Example, use your actual list
 
 # Create a dictionary to store the connections
 connections = {}
