@@ -1,4 +1,4 @@
-# **Learning of Movement Primitives by Gaussian Processes from Demonstrations**
+# **Segment, Compare and Learn: Creating Movement Libraries of Complex Task for Learning from Demonstration**
 
 <p align="center">
   <img src="Images/ExchemeIntro.jpg" height=200 />
