@@ -1,4 +1,5 @@
-from shapesimilarity import shape_similarity, shape_similarity3D
+from shapesimilarity import shape_similarity
+from utils import shape_similarity3D
 import matplotlib.pyplot as plt
 import numpy as np
 import pickle

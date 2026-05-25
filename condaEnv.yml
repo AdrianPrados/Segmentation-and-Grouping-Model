@@ -1,4 +1,4 @@
-name: Dirichlet
+name: SeGM
 channels:
   - defaults
 dependencies:
