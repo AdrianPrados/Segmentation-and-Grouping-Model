@@ -67,7 +67,18 @@ The video with the solution is provided on [Youtube](https://youtu.be/A3m2sbUI5F
 # Citation
 If you use this code, please quote our works :blush:
 
-In progress :construction_worker:
+```bibtex
+@article{prados2025segment,
+  title={Segment, Compare, and Learn: Creating Movement Libraries of Complex Task for Learning from Demonstration},
+  author={Prados, Adrian and Espinoza, Gonzalo and Moreno, Luis and Barber, Ramon},
+  journal={Biomimetics},
+  volume={10},
+  number={1},
+  pages={64},
+  year={2025},
+  publisher={MDPI}
+}
+```
 
 ## Acknowledgement
 This work was supported by Advanced Mobile dual-arm manipulator for Elderly People Attendance (AMME) (PID2022-139227OB-I00), funded by Ministerio de Ciencia e Innovacion.
